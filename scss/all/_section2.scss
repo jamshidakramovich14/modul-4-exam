@@ -1,0 +1,88 @@
+#section2 {
+  padding-top: 90px;
+  h2 {
+    color: $darkblue;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+  }
+
+  p {
+    padding-top: 25px;
+    color: $black;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  h3 {
+    color: $darkblue;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  small {
+    color: $black;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .section2_card {
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    .card1 {
+      display: flex;
+      padding: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 15px;
+      flex: 1 0 0;
+      border-radius: 20px;
+      border: 1px solid $silver;
+    }
+    .card {
+      display: flex;
+      padding: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 15px;
+      flex: 1 0 0;
+      border-radius: 20px;
+      border: 1px solid $silver;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #section2{
+    h3{
+      font-size: 18px;
+    }
+    small{
+      font-size: 12px !important;
+    }
+
+    .section2_card{
+      flex-wrap: wrap;
+      
+    }
+  }
+}

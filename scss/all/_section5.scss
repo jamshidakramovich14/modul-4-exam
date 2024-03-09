@@ -1,0 +1,300 @@
+#section5 {
+  padding-bottom: 30px;
+
+  h2 {
+    color: $darkblue;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+
+  .section5_start {
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 30px;
+
+    .section5_cards1 {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+
+      .section5_card {
+        width: 560px;
+        display: flex;
+        width: 560px;
+        height: 287px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid $silver;
+
+        .section5_span {
+          display: flex;
+          gap: 7px;
+
+          p {
+            color: $black;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            border-bottom: 2px solid $green;
+          }
+        }
+
+        small {
+          color: $silver;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+        }
+      }
+    }
+
+    .section5_cards2 {
+      display: flex;
+      justify-content: space-between;
+
+      .section5_card {
+        width: 560px;
+        display: flex;
+        width: 560px;
+        height: 287px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid $silver;
+
+        .section5_span {
+          display: flex;
+          gap: 7px;
+
+          p {
+            color: $black;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            border-bottom: 2px solid $green;
+          }
+        }
+
+        small {
+          color: $silver;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+        }
+      }
+    }
+  }
+
+  .section5_center {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 40px;
+    padding-bottom: 0px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: $green;
+
+    .section5_wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .number {
+        margin-left: -210px;
+        padding-top: 45px;
+        b {
+          color: $white;
+          font-family: "Open Sans";
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        strong {
+          color: $white;
+          font-family: "Open Sans";
+          font-size: 42px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -1.26px;
+        }
+      }
+    }
+
+    .picture_div {
+      padding-top: 30px;
+
+      img {
+        padding-right: 90px;
+      }
+    }
+  }
+
+  .section5_end {
+    position: relative;
+    bottom: 130px;
+    align-items: center;
+    margin-left: 23px;
+    margin-right: 23px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: var(--Gray-Background, rgba(47, 43, 67, 0.04));
+
+    h2 {
+      color: $darkblue;
+      font-family: "Open Sans";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.96px;
+    }
+
+    .section5_btns {
+      display: flex;
+      gap: 15px;
+      padding-bottom: 15px;
+
+      input {
+        border-radius: 9px;
+        background-color: $white;
+        border: none;
+      }
+
+      .btn2 {
+        color: $darkblue;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: 1px solid var(--primary-color);
+        border-radius: 7px;
+        color: $darkblue;
+        padding: 15px 30px;
+        font-family: "Roboto-regular";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.1px;
+        text-transform: uppercase;
+        transition: all 0.23s ease;
+        font-family: "Roboto-regular", sans-serif;
+
+        &:hover {
+          border-radius: 140px;
+          background-color: #00bfff;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  #section5 {
+    h2{
+      font-size: 20px;
+    }  
+
+    .section5_start{
+      display: flex;
+      overflow: hidden;
+      overflow-x: scroll !important;
+      gap: 40px !important;
+
+      .section5_cards1 {
+        gap: 20px;
+      }
+
+      .section5_cards2 {
+        gap: 20px;
+      }
+
+      .section5_card{
+        width: 319px !important;
+        height: 500px !important;
+
+        p{
+          font-size: 16px !important;
+        }
+      }
+    }
+
+    .section5_center{
+      .section5_wrapper {
+        margin: 0 !important;
+        width: 370px !important;
+        height: 330px !important;
+        position: relative;
+        padding: 0 !important;
+        img{
+          position: absolute;
+          bottom: 0;
+          left: -80px;
+        }
+
+        .number{
+          margin: 0 !important;
+          width: 100%;
+          padding: 0 !important;
+          gap: 0 !important;    
+          flex-direction: column;
+          padding-right: 120px !important;
+          b{
+            font-size: 16px;
+          }
+
+          strong{
+            font-size: 25px;
+          }
+        }
+
+        .picture_div{
+          position: absolute;
+          top: 190px;
+          width: 370px;
+          left: 160px;
+
+          img{
+            width: 270px !important;
+          }
+        }
+      }
+    }
+
+    .section5_end{
+      display: none !important;
+    }
+}
+}

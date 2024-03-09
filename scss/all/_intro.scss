@@ -1,0 +1,63 @@
+.intro {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0px;
+  justify-content: space-between;
+  align-items: center;
+
+  .ul1 {
+    display: flex;
+    gap: 20px;
+
+    .border_li {
+      border-radius: 10px;
+      border: 1px solid $silver;
+      display: flex;
+      padding: 10px 20px;
+      align-items: center;
+      gap: 10px;
+
+      a {
+        color: $blue;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+    li {
+      color: $darkblue;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      
+
+      &:hover {
+        color: var(--primary-color);
+        color: #00bfff;
+        border-bottom: 1px solid #00abe4;
+        transition: all 0.1s linear;
+        transform: scale(1.1,);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .border_span {
+    color: $blue;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+  }
+}

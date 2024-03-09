@@ -1,0 +1,42 @@
+.support-h1 {
+  color: $darkblue;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.footer-li-h2 {
+  align-self: stretch;
+  color: $darkblue;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-li {
+  align-self: stretch;
+  color: var(--Base-Black, #140a32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-li {
+  margin-top: 10px;
+}
+
+.footer-li-h2 {
+  margin-top: 72px;
+}

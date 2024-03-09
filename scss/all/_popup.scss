@@ -1,0 +1,94 @@
+.popup {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background: $white;
+  box-shadow: 0px 4px 40px 0px $black;
+  overflow: hidden;
+  width: 896px;
+  margin: 200px auto;
+  position: relative;
+}
+
+.popup_div {
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
+
+  h2 {
+    color: $darkblue;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+  }
+
+  img {
+    width: 480px;
+    height: 64px;
+    margin: 20px;
+  }
+
+  p {
+    color: $darkblue;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.section8_buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+
+  input {
+    width: 205px;
+    border-radius: 10px;
+    background: $white;
+    display: flex;
+    padding: 7px 16px 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    flex: 1 0 0;
+  }
+
+  .section8_btn {
+    background-color: $darkblue;
+    color: $white;
+    text-align: center;
+    font-family: "Open Sans";
+    border: 1px solid var(--primary-color);
+    border-radius: 7px;
+    padding: 15px 30px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    transition: all 0.23s ease;
+    font-family: "Roboto-regular", sans-serif;
+
+    &:hover {
+      border-radius: 140px;
+      background-color: #00bfff;
+      color: $darkblue;
+    }
+  }
+}
+
+#popup-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+}
